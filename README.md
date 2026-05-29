@@ -52,16 +52,23 @@
 ## 项目结构
 
 
-\`\`\`
-CampusPathfinding/
-├── CampusPathfinding.sln          # VS 解决方案
-├── CampusPathfinding.vcxproj      # VS 项目文件
-├── map.txt                        # 地图数据
-├── README.md
-└── src/
-    ├── main.cpp                   # 程序入口
-    ├── utils.h / utils.cpp        # 公共工具
-    ├── astar.h / astar.cpp        # A* 算法
-    ├── jps.h / jps.cpp            # JPS 算法
-    └── visualization.h / visualization.cpp  # 可视化
-\`\`\`
+  CampusPathfinding/
+  ├── maps/
+  │   ├── map_campus.txt
+  │   ├── map_maze.txt
+  │   └── map_open.txt
+  ├── src/
+  │   ├── main.cpp
+  │   ├── utils.h
+  │   ├── utils.cpp
+  │   ├── astar.h
+  │   ├── astar.cpp
+  │   ├── jps.h
+  │   ├── jps.cpp
+  │   ├── visualization.h
+  │   └── visualization.cpp
+  ├── CampusPathfinding.sln
+  ├── CampusPathfinding.vcxproj
+  ├── CampusPathfinding.vcxproj.filters
+  ├── .gitignore
+  └── README.md
