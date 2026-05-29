@@ -138,6 +138,7 @@
   <ItemGroup>
     <ClCompile Include="astar.cpp" />
     <ClCompile Include="jps.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="utils.cpp" />
     <ClCompile Include="visualization.cpp" />
   </ItemGroup>
