@@ -133,11 +133,13 @@
     <ClInclude Include="astar.h" />
     <ClInclude Include="jps.h" />
     <ClInclude Include="utils.h" />
+    <ClInclude Include="visualization.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="astar.cpp" />
     <ClCompile Include="jps.cpp" />
     <ClCompile Include="utils.cpp" />
+    <ClCompile Include="visualization.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
