@@ -127,9 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="map.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="astar.h" />
     <ClInclude Include="jps.h" />
     <ClInclude Include="utils.h" />
@@ -141,6 +138,12 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="utils.cpp" />
     <ClCompile Include="visualization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="maps\map.txt" />
+    <Text Include="maps\map1.txt" />
+    <Text Include="maps\map2.txt" />
+    <Text Include="maps\map3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
