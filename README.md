@@ -52,6 +52,7 @@
 ## 项目结构
 
 
+\`\`\`
 CampusPathfinding/
 ├── CampusPathfinding.sln          # VS 解决方案
 ├── CampusPathfinding.vcxproj      # VS 项目文件
@@ -63,4 +64,4 @@ CampusPathfinding/
     ├── astar.h / astar.cpp        # A* 算法
     ├── jps.h / jps.cpp            # JPS 算法
     └── visualization.h / visualization.cpp  # 可视化
-
+\`\`\`
